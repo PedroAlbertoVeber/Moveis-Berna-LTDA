@@ -1,0 +1,42 @@
+.menu-navegacao {
+    background-color: #333;
+    position: absolute;
+    top: calc(32.5px + 2rem);
+    left: 0;
+    width: 60vw;
+    height: 100vh;
+    transition: all 0.3s;
+}
+
+.menu-navegacao-aparecer {
+    left: -100vw;
+    overflow: hidden;
+}
+
+.link-lista {
+    line-height: 4rem;
+    text-decoration: none;
+    width: 100%;
+}
+
+.item-lista {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #EEE;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.item-lista:hover {
+    background-color: #444;
+    border-left: 2px solid #EEE;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-navegacao {
+        width: 30vw;
+        transition: all .5s;
+    }
+}

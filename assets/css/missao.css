@@ -1,0 +1,32 @@
+.subtitulo {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.paragrafo {
+    line-height: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .subtitulo {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    }
+
+    .paragrafo {
+        max-width: 1000px;
+        margin: 0 auto 20px auto;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+}

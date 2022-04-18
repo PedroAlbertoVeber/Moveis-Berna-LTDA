@@ -1,0 +1,73 @@
+.contato {
+    background-color: #333;
+    padding: 20px;
+}
+.subtitulo-contato {
+    color: #EEE;
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.paragrafo-contato {
+    line-height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: #EEE;
+}
+
+.info-contato {
+    line-height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: #EEE;
+    margin: 2rem 0;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+}
+
+.redes-sociais a img {
+    width: 50%;
+    max-width: 250px;
+}
+
+.endereco {
+    line-height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: #EEE;
+    margin: 2rem 0;
+}
+
+.mapa {
+    width: 100%;
+    min-height: 300px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .container-contato {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .redes-sociais a img {
+        width: 30%;
+    }
+
+    .redes-sociais {
+        justify-content: space-evenly;
+    }
+
+    .mapa {
+        max-height: 500px;
+    }
+}
